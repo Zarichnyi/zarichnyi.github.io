@@ -1,20 +1,17 @@
  body {
 	margin:0 auto;
-	background: url(bg.jpg)no-repeat;
+	background: url(/image/bg.jpg)no-repeat;
 }
 #container {
 	width: 1160px;
 	height:3900px;
-	background: url(http://www.lgs.lviv.ua/templates/logos/images/topbg.png)no-repeat;
+	background: url(image/topbg.png)no-repeat;
 	margin:0 auto;
 	position: relative;
 	box-shadow: 0 0 35px rgba(0,0,0,0.3);
 }
 .header {
 	height: 155px;
-	
-	
-	
 }
 #logo{
 	margin-top: 35px;
@@ -71,7 +68,7 @@
 			}
 			
 			a.first:hover {
-			background:url(http://www.lgs.lviv.ua/templates/logos/images/registerbg.png);
+			background:url(image/registerbg.png);
 			}
 		
 						
@@ -89,7 +86,7 @@
 			}
 			
 			a.second:hover {
-			background:url(http://www.lgs.lviv.ua/templates/logos/images/supportbg.png);
+			background:url(image/supportbg.png);
 			
 			}
 	
@@ -152,7 +149,8 @@
 	#menu {
 		height: 50px;
 		width: 100%;
-		background:url(http://www.lgs.lviv.ua/templates/logos/images/breaker.png);background:url(http://www.lgs.lviv.ua/templates/logos/images/menubg.png);
+		background:url(image/breaker.png);
+		background:url(image/menubg.png);
 		clear:both;
 	}
 	#leftpart {
@@ -185,12 +183,12 @@
 		color: white;
 		padding: 17px;
 		font-size:12.4px;
-		background:url(menubg.png);
+		background:url(/image/menubg.png);
 		border-right:1px solid black;
 
 	}
 	ul.menu li a:hover { 
-		background:  url(hover.png);
+		background:  url(image/hover.png);
 	}
 	#slider{
 		
@@ -217,7 +215,7 @@
 	}
 	a.edu {
 		display: block;
-		background: #194bab url(hat.png) no-repeat 165px center;
+		background: #194bab url(image/hat.png) no-repeat 165px center;
 		width: 215px;
 		padding: 30px 0;
 		font-family: Tahoma;
@@ -229,7 +227,7 @@
 		float: left;
 	}
 	a.edu:hover {
-		background:#3D73DA url(hat.png) no-repeat 165px center;
+		background:#3D73DA url(image/hat.png) no-repeat 165px center;
 	}
 	a.letter {
 		    display: block;
@@ -237,7 +235,7 @@
 			text-decoration: none;
 			font-family: Tahoma;
 			font-size: 16px;
-			background: #00b500 url(letter.png) no-repeat 140px center;
+			background: #00b500 url(image/letter.png) no-repeat 140px center;
 			width: 195px;
 			padding: 21px 0;
 			padding-left: 20px;
@@ -246,7 +244,7 @@
 			float: left;
 	}
 		a.letter:hover {
-			background: #13C313 url(letter.png) no-repeat 140px center;
+			background: #13C313 url(image/letter.png) no-repeat 140px center;
 		}
 	a.resume {
 		display: block;
@@ -254,7 +252,7 @@
 		text-decoration: none;
 		font-family: Tahoma;
 		font-size: 16px;
-		background: #ec361f url(rezume.png) no-repeat 140px center;
+		background: #ec361f url(image/rezume.png) no-repeat 140px center;
 		width: 195px;
 		padding: 21px 0;
 		padding-left: 20px;
@@ -263,7 +261,7 @@
 		float: left;
 	}
 	a.resume:hover {
-		background:#FF503A url(rezume.png) no-repeat 140px center;
+		background:#FF503A url(image/rezume.png) no-repeat 140px center;
 	}
 	a.free {
 		display: block;
@@ -271,7 +269,7 @@
 		text-decoration: none;
 		font-family: Tahoma, Geneva, sans-serif;
 		font-size: 16px;
-		background: #00b500 url(free.png) no-repeat 140px center;
+		background: #00b500 url(image/free.png) no-repeat 140px center;
 		width: 195px;
 		padding: 21px 0;
 		padding-left: 20px;
@@ -280,7 +278,7 @@
 		float: left;
 	}
 	a.free:hover {
-		background: #06EA06 url(free.png) no-repeat 140px center;
+		background: #06EA06 url(image/free.png) no-repeat 140px center;
 	}
 	a.revious {
 		display:block;
@@ -288,7 +286,7 @@
 		text-decoration:none;
 		font-family:Tahoma;
 		font-size:16px;
-		background:#194bab url(reviews.png) no-repeat 130px center;
+		background:#194bab url(image/reviews.png) no-repeat 130px center;
 		width:150px;
 		padding:30px 0px;
 		padding-left: 50px;
@@ -297,7 +295,7 @@
 		float: left;
 	}
 	a.revious:hover {
-		background:#2167EC url(reviews.png) no-repeat 130px center;
+		background:#2167EC url(image/reviews.png) no-repeat 130px center;
 	}
 	#left {
 		float:left;
@@ -319,11 +317,11 @@
 	}
 	
 	.box li a:before {
-		content:url(http://www.lgs.lviv.ua/templates/logos/images/mark.png);
+		content:url(image/mark.png);
 		padding-right:10px;
 	}
 	.box li a:hover::before {
-		content:url(http://www.lgs.lviv.ua/templates/logos/images/mark2.png);
+		content:url(image/mark2.png);
 		padding-right:10px;	
 	}
 		.box li a:hover {
@@ -406,7 +404,6 @@
 		width:180px;
 		height:28px;
 		float:right;
-		
 	}
 	.fa {
 		
@@ -422,7 +419,7 @@
 		float:left;
 		position:absolute;
 		left:265px;
-		top:565px;
+		top:305px;
 		font-family:Tahoma;
 		line-height: 150%;
 		font-weight:bold;
@@ -624,12 +621,12 @@
 
 	}
 	.footer2 a:before {
-		content:url(http://www.lgs.lviv.ua/templates/logos/images/little_mark.png);
+		content:url(image/little_mark.png);
 		padding-right:10px;
 		
 	}
 	.footer2 a:hover::before {
-		content:url(http://www.lgs.lviv.ua/templates/logos/images/little_mark_hover.png);
+		content:url(image/little_mark_hover.png);
 		padding-right:10px;
 	}
 	.footer2 a:hover {
@@ -644,12 +641,12 @@
 
 	}
 	.footer3 a:before {
-		content:url(http://www.lgs.lviv.ua/templates/logos/images/little_mark.png);
+		content:url(image/little_mark.png);
 		padding-right:10px;
 		
 	}
 	.footer3 a:hover::before {
-		content:url(http://www.lgs.lviv.ua/templates/logos/images/little_mark_hover.png);
+		content:url(image/little_mark_hover.png);
 		padding-right:10px;
 	}
 	.footer3 a:hover {
